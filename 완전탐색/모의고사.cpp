@@ -36,7 +36,8 @@ vector<int> solution(vector<int> answers)
         }
     }    
     
-    MaxScore = max(max(Score[0], Score[1]), Score[2]);
+    //MaxScore = max(max(Score[0], Score[1]), Score[2]);
+    MaxScore = *max_element(Score.begin(), Score.end());
 
     for (int i = 0; i < Score.size(); i++)
     {
