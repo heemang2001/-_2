@@ -13,10 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스">
+      <UniqueIdentifier>{49db82a7-fa30-4a3d-a506-52547eb028ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\백준">
+      <UniqueIdentifier>{6755f61e-65d6-4c83-96f4-6af8bc9d5274}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="완전탐색.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="모의고사.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
