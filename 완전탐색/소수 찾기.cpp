@@ -32,8 +32,11 @@ int solution(string numbers)
     vector<int> nums;   // 종이 조각으로 만들 수 있는 모든 수 저장
 
     // numbers의 각 숫자를 v에 입력 후 오름차순 정렬
-    for(int i = 0; i < numbers.size(); i++)
+    for (int i = 0; i < numbers.size(); i++)
+    {
         v.push_back(numbers[i]);
+    }
+        
     sort(v.begin(), v.end());
 
     do
