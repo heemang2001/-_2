@@ -43,12 +43,15 @@ int solution(string numbers)
     {
         string temp = "";
         // 만들 수 있는 모든 숫자 nums에 저장
-        for (int i = 0; i < v.size(); i++) {
+        for (int i = 0; i < v.size(); i++)
+        {
             temp.push_back(v[i]);
             nums.push_back(stoi(temp));
         }
     }
 
+    // next_permutation 원소의 순열을 구함 (다음순열 존재시 true 없으면 false)
+    // 오름차순으로 정렬된 값을 가진 컨테이너로만 사용가능
     while (next_permutation(v.begin(), v.end()));
 
     // 중복 값 지우기
@@ -69,7 +72,7 @@ int solution(string numbers)
 
 int main()
 {
-	cout << solution("112");
+	cout << solution("011");
 
 	return 0;
 }
