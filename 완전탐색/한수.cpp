@@ -49,6 +49,7 @@ int main()
 	}
 
 	cout << cnt << '\n';
+	cout << "Å×½ºÆ®" << '\n';
 
 	return 0;
 }
