@@ -57,5 +57,8 @@
     <ClCompile Include="거꾸로 구구단.cpp">
       <Filter>소스 파일\백준</Filter>
     </ClCompile>
+    <ClCompile Include="부분수열의 합.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
